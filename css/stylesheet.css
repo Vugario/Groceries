@@ -1,0 +1,96 @@
+.ui-page-theme-a {
+  background-color: #FCFBF9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+  background-color: #F5F0E9;
+  border: 0;
+  color: #487F6A;
+  text-shadow: none;
+}
+
+.ui-page-theme-a .ui-bar-inherit h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.ui-page-theme-a .ui-bar-inherit h2 {
+  font-weight: 300;
+}
+
+.ui-page-theme-a .ui-btn-left, .ui-page-theme-a .ui-btn-right {
+  top: 15px;
+}
+
+.ui-page-theme-a .ui-bar-inherit h2 {
+  background-color: #4DA885;
+  color: #F5F0E9;
+  text-shadow: none;
+  margin: 0;
+}
+
+.ui-page-theme-a .ui-input-text {
+  border: 2px solid #F5F0E9;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.ui-page-theme-a .ui-input-text input {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.ui-page-theme-a .ui-content .ui-listview-inset {
+  box-shadow: none;
+}
+
+.ui-page-theme-a .ui-listview > li {
+
+}
+
+.ui-page-theme-a .ui-content .ui-listview .ui-btn {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ui-page-theme-a .ui-listview .ui-btn.ui-btn-active {
+  background-color: #F5F0E9;
+  color: #333333;
+  text-shadow: none;
+}
+
+.ui-page-theme-a .ui-listview li+li .ui-btn {
+  border-top: 1px solid #F5F0E9;
+}
+
+.ui-page-theme-a li .ui-li-count {
+  background-color: #E5E2AC;
+  border: 0;
+  border-radius: 50%;
+  padding: 1px 7px;
+  text-shadow: none;
+}
+
+.ui-page-theme-a .ui-content .ui-btn {
+  background-color: #E5E2AC;
+  border: 0;
+  box-shadow: none;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1em 1em;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+.ui-page-theme-a .ui-field-number .ui-input-text {
+  width: 70px;
+}

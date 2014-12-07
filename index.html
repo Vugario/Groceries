@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Groceries</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/stylesheet.css" />
+	<script src="js/app.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="home">
+	<div data-role="header">
+		<h1>Groceries</h1>
+		<h2>Your grocery list</h2>
+	</div>
+	<div data-role="content">
+		<input type="text" name="product" placeholder="Add an item like milk or eggs" onchange="add();">
+
+		<ul id="items" data-role="listview" data-inset="true" data-split-icon="plus">
+			<li><a href="view.html?1">Milk <span class="ui-li-count">2</span></a><a href="#">Add more</a></li>
+			<li><a href="view.html?1">Eggs <span class="ui-li-count">2</span></a><a href="#">Add more</a></li>
+		</ul>
+	</div>
+</div>
+
+
+</body>
+</html>
